@@ -21,7 +21,7 @@ function Drops(){
             </div>
             <div className={style.content}>
                 <div className={style.card}>
-                    <img src={drop}/>
+                    <img className={style.card__drop} src={drop}/>
                     <div className={style.card__name}>
                         <div className={style.card__title}>
                             <h4>Theresa Webb</h4>
@@ -37,7 +37,7 @@ function Drops(){
                     </div>
                 </div>
                 <div className={style.card}>
-                    <img src={drop2}/>
+                    <img className={style.card__drop} src={drop2}/>
                     <div className={style.card__name}>
                         <div className={style.card__title}>
                             <h4>Theresa Webb</h4>
@@ -53,7 +53,7 @@ function Drops(){
                     </div>
                 </div>
                 <div className={style.card}>
-                    <img src={drop}/>
+                    <img className={style.card__drop}  src={drop}/>
                     <div className={style.card__name}>
                         <div className={style.card__title}>
                             <h4>Theresa Webb</h4>
@@ -69,7 +69,7 @@ function Drops(){
                     </div>
                 </div>
                 <div className={style.card}>
-                    <img src={drop2}/>
+                    <img className={style.card__drop}  src={drop2}/>
                     <div className={style.card__name}>
                         <div className={style.card__title}>
                             <h4>Theresa Webb</h4>
@@ -85,7 +85,7 @@ function Drops(){
                     </div>
                 </div>
                 <div className={style.card}>
-                    <img src={drop}/>
+                    <img className={style.card__drop}  src={drop}/>
                     <div className={style.card__name}>
                         <div className={style.card__title}>
                             <h4>Theresa Webb</h4>
@@ -101,7 +101,7 @@ function Drops(){
                     </div>
                 </div>
                 <div className={style.card}>
-                    <img src={drop2}/>
+                    <img className={style.card__drop}  src={drop2}/>
                     <div className={style.card__name}>
                         <div className={style.card__title}>
                             <h4>Theresa Webb</h4>
@@ -117,7 +117,7 @@ function Drops(){
                     </div>
                 </div>
                 <div className={style.card}>
-                    <img src={drop}/>
+                    <img className={style.card__drop}  src={drop}/>
                     <div className={style.card__name}>
                         <div className={style.card__title}>
                             <h4>Theresa Webb</h4>
@@ -133,7 +133,7 @@ function Drops(){
                     </div>
                 </div>
                 <div className={style.card}>
-                    <img src={drop2}/>
+                    <img className={style.card__drop}  src={drop2}/>
                     <div className={style.card__name}>
                         <div className={style.card__title}>
                             <h4>Theresa Webb</h4>
