@@ -1,6 +1,9 @@
 import React from "react";
 import style from './Shoping.module.sass'
 import green from './../../assets/green_ring.png'
+import red from './../../assets/red_ring.png'
+import purple from './../../assets/purple_ring.png'
+import blue from './../../assets/blue_ring.png'
 
 function Shoping(){
     return(
@@ -22,6 +25,24 @@ function Shoping(){
                     <img src={green}/>
                     <div className={style.card__name}>
                         Green Ring
+                    </div>
+                </div>
+                <div className={style.card}>
+                    <img src={red}/>
+                    <div className={style.card__name}>
+                        Red Ring
+                    </div>
+                </div>
+                <div className={style.card}>
+                    <img src={purple}/>
+                    <div className={style.card__name}>
+                        Purple Ring
+                    </div>
+                </div>
+                <div className={style.card}>
+                    <img src={blue}/>
+                    <div className={style.card__name}>
+                        Blue Ring
                     </div>
                 </div>
             </div>
