@@ -3,6 +3,7 @@ import './App.sass'
 import Header from './components/Header/Header'
 import Drops from './pages/Drops/Drops'
 import Shoping from './pages/OnlineShoping/Shoping'
+import SignUp from './pages/SignUp/SignUp'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Shoping/>
       <Drops/>
+      <SignUp/>
     </div>
   )
 }
